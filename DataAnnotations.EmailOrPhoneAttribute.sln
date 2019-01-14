@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWeb", "DemoWeb\DemoWeb.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "publish", "Publish\Publish.csproj", "{82C3A962-691C-4096-B532-3CCFDB71E982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ezfx.DataAnnotations.EmailOrPhoneAttribute", "EmailAdressOrPhoneAttribute\Ezfx.DataAnnotations.EmailOrPhoneAttribute.csproj", "{DFDAB241-886E-4544-BE7B-4FB717611FD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ezfx.DataAnnotations.EmailOrPhoneAttribute", "EmailOrPhoneAttribute\Ezfx.DataAnnotations.EmailOrPhoneAttribute.csproj", "{DFDAB241-886E-4544-BE7B-4FB717611FD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -261,7 +261,7 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EmailAdressOrPhoneAttribute_framwork_version\Ezfx.DataAnnotations.EmailOrPhoneAttribute.csproj">
+    <ProjectReference Include="..\EmailOrPhoneAttribute\Ezfx.DataAnnotations.EmailOrPhoneAttribute.csproj">
       <Project>{dfdab241-886e-4544-be7b-4fb717611fd2}</Project>
       <Name>Ezfx.DataAnnotations.EmailOrPhoneAttribute</Name>
     </ProjectReference>
