@@ -10,6 +10,8 @@
     <PackageReleaseNotes>Welcome and have fun.</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <AssemblyName>Ezfx.DataAnnotations.EmailOrPhoneAttribute</AssemblyName>
+    <RootNamespace>Ezfx.DataAnnotations.EmailOrPhoneAttribute</RootNamespace>
+    <Description>Ezfx.DataAnnotations.EmailOrPhoneAttribute</Description>
   </PropertyGroup>
 
   <ItemGroup>
