@@ -52,6 +52,9 @@ namespace Ezfx.DataAnnotations.EmailOrPhoneAttribute
             return false;
         }
 
+        //the following code is microsoft code.
+        #region Microsoft 
+
         private bool IsEmail(string valueAsString)
         {
             int atCount = 0;
@@ -106,7 +109,7 @@ namespace Ezfx.DataAnnotations.EmailOrPhoneAttribute
             }
             return true;
         }
-
+        
         private static string RemovePhoneExtension(string potentialPhoneNumber)
         {
             int lastIndexOfExtension = potentialPhoneNumber
@@ -164,7 +167,7 @@ namespace Ezfx.DataAnnotations.EmailOrPhoneAttribute
 
             return true;
         }
-        
+
         private static Regex CreateEmailRegEx()
         {
             // We only need to create the RegEx if this switch is enabled.
@@ -227,5 +230,7 @@ namespace Ezfx.DataAnnotations.EmailOrPhoneAttribute
             // Legacy fallback (without explicit match timeout)
             return new Regex(pattern, options);
         }
+
+        #endregion
     }
 }

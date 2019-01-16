@@ -50,7 +50,7 @@ namespace DemoWeb.Models
     public class LoginViewModel
     {
         [Required]
-        [EmailOrPhone]
+        [EmailOrPhone(ErrorMessage ="Phone or Email not in the right format.")]
         [Display(Name = "Email/Phone")]
         public string EmailOrPhone { get; set; }
 

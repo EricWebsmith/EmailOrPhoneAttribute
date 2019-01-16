@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Specialized;
 using System.Configuration;
-using System.Diagnostics.CodeAnalysis;
-//using System.ComponentModel.DataAnnotations.Util;
 
 namespace Ezfx.DataAnnotations.EmailOrPhoneAttribute
 {
@@ -22,7 +20,6 @@ namespace Ezfx.DataAnnotations.EmailOrPhoneAttribute
 
                         try
                         {
-
                             settings = ConfigurationManager.AppSettings;
                         }
                         catch (ConfigurationErrorsException) { }

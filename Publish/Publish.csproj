@@ -2,25 +2,28 @@
 
   <PropertyGroup>
     <TargetFrameworks>netcoreapp2.1;netcoreapp2;netstandard2.0;net461;net462;net47;net471;net472</TargetFrameworks>
-    <RepositoryUrl>https://github.com/juwikuang/Ezfx.DataAnnotations.EmailOrPhoneAttribute</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/juwikuang/Ezfx.DataAnnotations.EmailOrPhoneAttribute</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/juwikuang/EmailOrPhoneAttribute</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/juwikuang/EmailOrPhoneAttribute</PackageProjectUrl>
     <Authors>Eric Chow</Authors>
     <Company>Eric Chow</Company>
-    <PackageTags>Email Phone DataAnnotations</PackageTags>
-    <PackageReleaseNotes>Welcome and have fun.</PackageReleaseNotes>
+    <PackageTags>Email Phone Authentification DataAnnotations ASP.NET MVC</PackageTags>
+    <PackageReleaseNotes>Now, support .net framework 4.5, 4.51, 4.52 and 4.6.</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <AssemblyName>Ezfx.DataAnnotations.EmailOrPhoneAttribute</AssemblyName>
     <RootNamespace>Ezfx.DataAnnotations.EmailOrPhoneAttribute</RootNamespace>
-    <Description>Ezfx.DataAnnotations.EmailOrPhoneAttribute</Description>
+    <Description>Modified from Microsoft source code. Merged EmailAddressAttribute and Phone Attribute. Allow users to login with email or phone. The default is email only.</Description>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/juwikuang/EmailOrPhoneAttribute/master/licence.txt</PackageLicenseUrl>
+    <Copyright>Eric Chow</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>Eric Chow</Product>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Include="..\EmailOrPhoneAttribute\AppSettings.cs" Link="AppSettings.cs" />
     <Compile Include="..\EmailOrPhoneAttribute\EmailOrPhoneAttribute.cs" Link="EmailOrPhoneAttribute.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
   </ItemGroup>
 
   <!--<ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp2.2'">
@@ -109,6 +112,10 @@
     <PackageReference Include="System.Configuration.ConfigurationManager">
       <Version>4.5.0</Version>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
   </ItemGroup>
 
 </Project>
